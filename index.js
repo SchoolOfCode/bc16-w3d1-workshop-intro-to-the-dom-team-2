@@ -36,3 +36,8 @@ console.log(itemList.children);
 
 console.log(itemList.firstElementChild);
 console.log(itemList.lastElementChild);
+console.log(itemList.querySelector(".highlight"));
+
+const cherry = itemList.querySelector(".highlight");
+console.log(cherry.previousElementSibling);
+console.log(cherry.nextElementSibling);
