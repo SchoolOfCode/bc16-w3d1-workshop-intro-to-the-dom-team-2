@@ -31,3 +31,5 @@ const item = itemList.querySelector("li");
 console.log(item.parentNode);
 
 console.log(itemList.childNodes);
+
+console.log(itemList.children);
