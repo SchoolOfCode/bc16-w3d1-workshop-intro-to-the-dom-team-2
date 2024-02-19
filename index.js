@@ -41,3 +41,6 @@ console.log(itemList.querySelector(".highlight"));
 const cherry = itemList.querySelector(".highlight");
 console.log(cherry.previousElementSibling);
 console.log(cherry.nextElementSibling);
+
+document.getElementById("title").style.color = "red";
+document.getElementById("title").style.fontSize = "30px";
