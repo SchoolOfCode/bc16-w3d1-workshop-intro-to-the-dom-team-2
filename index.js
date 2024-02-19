@@ -8,3 +8,6 @@ console.log(document.getElementsByClassName("content"));
 
 document.querySelectorAll("li");
 console.log(document.querySelectorAll("li"));
+
+document.querySelector(".highlight")
+console.log(document.querySelector(".highlight"))
