@@ -33,3 +33,6 @@ console.log(item.parentNode);
 console.log(itemList.childNodes);
 
 console.log(itemList.children);
+
+console.log(itemList.firstElementChild);
+console.log(itemList.lastElementChild);
