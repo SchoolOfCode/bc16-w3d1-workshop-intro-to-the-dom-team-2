@@ -44,3 +44,11 @@ console.log(cherry.nextElementSibling);
 
 document.getElementById("title").style.color = "red";
 document.getElementById("title").style.fontSize = "30px";
+
+const newElement = document.createElement("p")
+
+newElement.textContent = "This is a dynamically added paragraph."
+
+const parentElement = document.querySelector("body")
+
+parentElement.appendChild(newElement)
