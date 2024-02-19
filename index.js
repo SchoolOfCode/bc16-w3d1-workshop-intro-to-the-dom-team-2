@@ -19,3 +19,13 @@ console.log(document.querySelectorAll(".highlight"))
 for (var i = 0; i < elements.length; i++) {
     console.log(elements[i].textContent);
 }
+
+document.getElementById("itemList");
+console.log(document.getElementById("itemList"));
+
+const itemList = document.getElementById("itemList");
+itemList.querySelector("li");
+console.log(itemList.querySelector("li"));
+
+const item = itemList.querySelector("li");
+console.log(item.parentNode);
