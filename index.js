@@ -29,3 +29,5 @@ console.log(itemList.querySelector("li"));
 
 const item = itemList.querySelector("li");
 console.log(item.parentNode);
+
+console.log(itemList.childNodes);
