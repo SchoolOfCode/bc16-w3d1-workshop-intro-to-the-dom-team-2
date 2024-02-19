@@ -52,3 +52,9 @@ newElement.textContent = "This is a dynamically added paragraph."
 const parentElement = document.querySelector("body")
 
 parentElement.appendChild(newElement)
+
+console.log(document.querySelector(".content"));
+
+let firstParagraph = document.querySelector(".content");
+
+firstParagraph.textContent = "This paragraph has been updated";
