@@ -11,3 +11,11 @@ console.log(document.querySelectorAll("li"));
 
 document.querySelector(".highlight")
 console.log(document.querySelector(".highlight"))
+
+const elements = document.querySelectorAll(".highlight");
+
+document.querySelectorAll(".highlight")
+console.log(document.querySelectorAll(".highlight"))
+for (var i = 0; i < elements.length; i++) {
+    console.log(elements[i].textContent);
+}
